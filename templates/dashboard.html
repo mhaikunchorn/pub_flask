@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<h1>Pubs of London</h1>
+<!-- DESCRIPTION-->
+<h5>Dashboard – Effective modelling using python</h5>
+<p>The aim of this dashboard is to present the same information with three different models.
+    <br>All models present the number of pubs in each borough of London.
+    <br>
+    <br>Keys: Name, Latitude, Longitude, Local Authority (London Borough)</p></div>
+
+<!--DASHBOARD LAYOUT-->
+<div class="cont">
+    <img alt="map" class="image" src="/static/img/mapofpubs.png">
+    <div class="overlay">
+        <div class="text"><a href="http://127.0.0.1:5000/map">Map</a></div>
+    </div>
+</div>
+<div class="cont">
+    <img alt="pub charts" class="image" src="/static/img/mean_bars.png">
+    <div class="overlay">
+        <div class="text"><a href="http://127.0.0.1:5000/pub-chart">Pub Chart</a></div>
+    </div>
+</div>
+
+<div class="cont">
+    <img alt="pie" class="image" src="/static/img/pie_chart1.png">
+    <div class="overlay">
+        <div class="text"><a href="http://127.0.0.1:5000/pie-chart">Pie Chart</a></div>
+    </div>
+</div>
+
+
+<!--UPDATE WITH GITHUB HANDLE AND LINK TO PROFILE-->
+<p class="para-style">Stay Connected
+    <br>
+    <a href="https://github.com/daresoniran">@DáreSoniran</a> | <a
+            href="https://github.com/mhaikunchorn">@MhaiKunchorn</a></p>
+
+</body>
+</html>
